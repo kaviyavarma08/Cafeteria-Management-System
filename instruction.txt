@@ -1,0 +1,7 @@
+pip install fastapi uvicorn asyncpg passlib pyjwt
+pip install "python-multipart" "itsdangerous"
+pip install fastapi[all]
+pip install bcrypt==4.0.0
+
+
+uvicorn main:app --reload
